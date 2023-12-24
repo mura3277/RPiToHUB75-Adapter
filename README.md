@@ -1,6 +1,6 @@
 # Raspberry Pi 4 40 Pin GPIO to HUB75 Adapter Board
 
-This PCB converts pins 23-40 of the Pi GPIO to the HUB75 header. The remaining pins 1-22 are mapped to the 20-pin header on the board. It is intended this is used with the [RGB LED Matrix](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master) library with a custom mapping as this adapter accesses different GPIO from the regular pin mapping. The mapping is as follows:
+This PCB converts pins 23-40 of the Pi GPIO to the HUB75 header. The remaining pins 1-22 are mapped to the 20-pin header on the board. It is intended this is used with the [RGB LED Matrix](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master) library with a custom mapping ((here))[https://github.com/mura3277/rpi-rgb-led-matrix/blob/master/lib/hardware-mapping.c#L29] as this adapter accesses different GPIO from the regular pin mapping. The mapping is as follows:
 
 |Row 1        | Row 2       |
 |-------------|:-----------:|
