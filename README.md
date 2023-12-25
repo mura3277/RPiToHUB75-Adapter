@@ -32,6 +32,9 @@ Pin mapping for the remaining 20 pins from the Pi GPIO:
 
 # Change Log
 
+## 3.0
+-  Added 3 pin fan header connected to a GPIO pin for cooling a pi within an enclosure
+
 ## 2.0
 -  Added solder jumper pads to support displays with or without the extra data line E.
 
