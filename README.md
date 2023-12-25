@@ -32,8 +32,12 @@ Pin mapping for the remaining 20 pins from the Pi GPIO:
 
 # Change Log
 
+## 4.0
+-  Added buzzer to the board connected to a GPIO pin.
+-  Split off the dedicated input pins to a 6 pin IDC so it can easily be connected to a daughter board.
+
 ## 3.0
--  Added 3 pin fan header connected to a GPIO pin for cooling a pi within an enclosure
+-  Added 3 pin fan header connected to a GPIO pin for cooling a pi within an enclosure.
 
 ## 2.0
 -  Added solder jumper pads to support displays with or without the extra data line E.
