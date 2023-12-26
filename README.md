@@ -17,7 +17,7 @@ Pin mapping for IO header for the future input PCB:
 |GPIO 20   |GPIO 16   |
 |GND       |GPIO 21   |
 
-![](image.png)
+![](passive/image.png)
 
 # Change Log
 
