@@ -1,21 +1,21 @@
-# Raspberry Pi 4 40 Pin GPIO to HUB75 Adapter Board
+# Raspberry Pi 40 Pin GPIO to HUB75 Adapter Board
 
-This PCB maps the Pi GPIO to the HUB75 header. The remaining pins are mapped to a 8-pin header on the board. It is intended this is used with the [RGB LED Matrix](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master) library.
+This PCB maps the Pi GPIO to the HUB75 header. The remaining pins are mapped to a 8-pin header to connect additional devices. It is intended this is used with the [RGB LED Matrix](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master) library.
 
 Pin mapping for the remaining pins from the Pi GPIO:
+|Col 1     | Col 2    |
+|----------|----------|
+|GPIO 26   |GPIO 2 I2C|
+|GPIO 6    |GPIO 3 I2C|
+|5v Power  |GPIO 13   |
+|GND       |GPIO 19   |
 
-|Row 1     | Row 2    |
-|----------|:--------:|
-|3v3 Power |5v Power  |
-|GPIO 4    |GND       |
-|GPIO 2 I2C|GPIO 3 I2C|
-|GPIO 15   |GPIO 14   |
-|GPIO 18   |GPIO 17   |
-|GPIO GND  |GPIO 27   |
-|GPIO 23   |GPIO 22   |
-|GPIO 24   |GPIO 10   |
-|GND       |GPIO 9    |
-|GPIO 25   |GND       |
+Pin mapping for IO header for the future input PCB:
+|Col 1     | Col 2    |
+|----------|----------|
+|GPIO 12   |GPIO 1    |
+|GPIO 20   |GPIO 16   |
+|GND       |GPIO 21   |
 
 ![](image.png)
 
