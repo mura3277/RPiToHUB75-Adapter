@@ -32,6 +32,9 @@ Pin mapping for the remaining 20 pins from the Pi GPIO:
 
 # Change Log
 
+## 5.0
+-  Added a right angled tilt sensor to the board, connected to a GPIO pin.
+
 ## 4.0
 -  Added buzzer to the board connected to a GPIO pin.
 -  Split off the dedicated input pins to a 6 pin IDC so it can easily be connected to a daughter board.
