@@ -962,7 +962,7 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp c9faa484-540a-4826-bfd0-9efdb4dd7bb2))
   (gr_line (start 166.13955 114.8543) (end 135.89 114.8543)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp d55a2192-5d33-4d04-b84f-6de66350c17d))
-  (gr_text "RPiToHUB75 Adapter V5\n" (at 138.938 112.268 90) (layer "F.SilkS") (tstamp 6865f928-4ebd-48f1-8a2a-a1ca01000d2b)
+  (gr_text "RPiToHUB75 Adapter V6\n" (at 138.938 112.268 90) (layer "F.SilkS") (tstamp 6865f928-4ebd-48f1-8a2a-a1ca01000d2b)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "Designed by Muramasa" (at 140.97 112.268 90) (layer "F.SilkS") (tstamp fc6ff8ba-e7d1-43e6-909d-3847676eabbb)
