@@ -1,3 +1,5 @@
 passive/RP4Passive-backups/*
+input/input-backups/*
 passive/fp-info-cache
 passive/*.lck
+input/fp-info-cache

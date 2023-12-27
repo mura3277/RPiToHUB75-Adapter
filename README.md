@@ -5,10 +5,9 @@ This PCB maps the Pi GPIO to the HUB75 header. The remaining pins are mapped to 
 Pin mapping for the remaining pins from the Pi GPIO:
 |Col 1     | Col 2    |
 |----------|----------|
-|GPIO 26   |GPIO 2 I2C|
-|GPIO 6    |GPIO 3 I2C|
-|5v Power  |GPIO 13   |
-|GND       |GPIO 19   |
+|GPIO 6    |GPIO 13   |
+|5v Power  |GPIO 19   |
+|GND       |GPIO 26   |
 
 Pin mapping for IO header for the future input PCB:
 |Col 1     | Col 2    |
@@ -20,6 +19,12 @@ Pin mapping for IO header for the future input PCB:
 ![](passive/image.png)
 
 # Change Log
+## 7.0
+-  Added 2 pin power header.
+-  Added 4 pin STEMMA QT connector.
+-  Changed the 6 pin IO to a smaller JST SH.
+-  Changed the 6 pin GPIO to a low profile pin socket.
+-  Adjusted layout to support RPi5 with 5-6mm heatsink
 
 ## 6.0
 -  Went back to the regular HUB75 mapping as outlined by the rpi-rgb-led-matrix repo.
