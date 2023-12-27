@@ -118,8 +118,6 @@
   (net 40 "unconnected-(RPiGPIO1-Pin_39-Pad39)")
   (net 41 "5v")
   (net 42 "unconnected-(RPiGPIO1-Pin_1-Pad1)")
-  (net 43 "unconnected-(J2-Pin_1-Pad1)")
-  (net 44 "unconnected-(J2-Pin_2-Pad2)")
 
   (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" (layer "F.Cu")
     (tstamp 9bc15a9b-07e6-47a4-9819-eb661e4bfe5a)
@@ -438,12 +436,12 @@
     (fp_rect (start -2.286 2.032) (end 2.286 -2.032)
       (stroke (width 0.05) (type default)) (fill none) (layer "B.CrtYd") (tstamp d26d3a0d-e379-4511-977b-be0a3525ad61))
     (model "C:/Users/Admin/Downloads/RASPBERRY_PI_5.STEP/RASPBERRY_PI_5.STEP"
-      (offset (xyz 10 -24.5 12.5))
+      (opacity 0.0000)      (offset (xyz 10 -24.5 12.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
     (model "C:/Users/Admin/Downloads/black-aluminum-heatsink-for-raspberry-pi-1.snapshot.3/Heat sink Al.step"
-      (offset (xyz 0.5 -19 7.5))
+      (opacity 0.0000)      (offset (xyz 0.5 -19 7.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
@@ -588,7 +586,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f43ed978-aadd-4e91-8aed-f5f79cd5f108)
     )
-    (fp_text value "Conn_01x02_Socket" (at 1 -7.45 90) (layer "B.Fab") hide
+    (fp_text value "1x02" (at 1 -7.45 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 56d592d7-791b-4a2e-b7e5-5798358fd1a4)
     )
@@ -673,9 +671,9 @@
     (fp_line (start 3.95 1.35) (end 3.25 1.35)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp e7a12e17-d881-41d1-8116-679f461508e3))
     (pad "1" thru_hole roundrect (at 0 0 90) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.208333)
-      (net 43 "unconnected-(J2-Pin_1-Pad1)") (pinfunction "Pin_1") (pintype "passive+no_connect") (tstamp 853c11a5-6e99-4445-bafc-6ee3d9550080))
+      (net 41 "5v") (pinfunction "Pin_1") (pintype "passive") (tstamp 853c11a5-6e99-4445-bafc-6ee3d9550080))
     (pad "2" thru_hole oval (at 2 0 90) (size 1.2 1.75) (drill 0.75) (layers "*.Cu" "*.Mask")
-      (net 44 "unconnected-(J2-Pin_2-Pad2)") (pinfunction "Pin_2") (pintype "passive+no_connect") (tstamp 4b867dfe-16ed-4e53-8aba-38726c2a10fa))
+      (net 2 "Net-(BZ1-+)") (pinfunction "Pin_2") (pintype "passive") (tstamp 4b867dfe-16ed-4e53-8aba-38726c2a10fa))
     (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
